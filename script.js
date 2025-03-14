@@ -64,3 +64,14 @@ function showEventDetails(event) {
 
     document.getElementById("event-details").style.display = "block"; // Show details section
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const timelineContainer = document.getElementById("timeline-events");
+
+    if (timelineContainer) {
+        // Wait for all images to load before setting scroll position
+        window.onload = function () {
+            timelineContainer.scrollLeft = 0;
+        };
+    }
+});
