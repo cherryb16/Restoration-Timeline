@@ -1,64 +1,136 @@
+/* General Page Styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-}
-
-.timeline {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    width: 80%;
-    margin: auto;
-}
-
-.event {
-    position: relative;
-    width: 60%;
-    margin: 20px 0;
-    padding: 20px;
-    background: white;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    text-align: center;
-    transition: transform 0.3s;
-}
-
-.event:hover {
-    transform: scale(1.05);
-}
-
-.event img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.event-description {
-    margin-top: 10px;
-}
-
-.event:hover .event-links {
-    display: block;
-}
-
-.event-links {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.8);
+    background-color: #121212; /* Dark theme */
     color: white;
-    padding: 10px;
-    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Timeline Container */
+.horizontal-timeline {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 50px 20px;
+    max-width: 100%;
+    height: 300px;
     white-space: nowrap;
 }
 
-.event-links a {
-    color: #FFD700;
+/* Event Container */
+.event {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    margin: 0 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Event Images - Increased Size */
+.event img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
     display: block;
+    margin: 20px auto;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 3px solid #00c6ff;
+}
+
+.event img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 15px rgba(0, 198, 255, 0.8);
+}
+
+/* Event Details Section (Hidden Until Clicked) */
+#event-details {
+    display: none;
+    position: absolute;
+    bottom: 10%; /* Adjusts position to about 3/4 of the screen */
+    left: 50%;
+    transform: translateX(-50%) translateY(-10%); /* Center horizontally, slight lift */
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-height: 250px; /* Prevents it from taking too much space */
+    overflow-y: auto; /* Adds scroll if needed */
+    border: 2px solid #00c6ff;
+    box-shadow: 0 0 10px rgba(0, 198, 255, 0.5);
+}
+
+/* Event Title */
+#event-title {
+    font-size: 24px;
+    color: #00c6ff;
+}
+
+/* Event Date - Ensure Visibility When Clicked */
+#event-date {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+/* Event Description */
+#event-description {
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+/* Event Links - Align at Bottom with "|" Separators */
+#event-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+#event-links a {
+    color: #00c6ff;
     text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    padding: 0 10px;
+}
+
+#event-links a::after {
+    content: " | ";
+    color: #ccc;
+    position: absolute;
+    right: -10px;
+}
+
+#event-links a:last-child::after {
+    content: ""; /* Removes the last "|" */
+}
+
+#event-links a:hover {
+    text-decoration: underline;
+    color: #0072ff;
+}
+
+/* Scrollbar Styling for Horizontal Scrolling */
+.horizontal-timeline::-webkit-scrollbar {
+    height: 8px;
+}
+
+.horizontal-timeline::-webkit-scrollbar-track {
+    background: #333;
+}
+
+.horizontal-timeline::-webkit-scrollbar-thumb {
+    background: #00c6ff;
+    border-radius: 4px;
 }

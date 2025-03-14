@@ -5,8 +5,8 @@ timeline = [
     {
         "event": "The First Vision",
         "date": "Spring 1820",
-        "description": "Joseph Smith prays to know which church is true. God the Father and Jesus Christ appear and instruct him not to join any existing churches.",
-        "image": "images/first-vision.jpeg",
+        "description": "Seeking guidance on which church to join, Joseph Smith prayed in a grove of trees near his home. In response, God the Father and Jesus Christ appeared to him, instructing him not to join any existing church. This vision marked the beginning of the Restoration of the gospel.",
+        "image": "images/first vision.jpeg",
         "links": {
             "Joseph Smith - History 1:15-20": "https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng&id=p15",
             "Video": "https://www.churchofjesuschrist.org/media/video/2014-06-0001-joseph-smiths-first-vision?lang=eng",
@@ -16,8 +16,8 @@ timeline = [
     {
         "event": "The Visitation of Moroni",
         "date": "September 21, 1823",
-        "description": "The angel Moroni visits Joseph Smith and tells him about the gold plates.",
-        "image": "images/moroni-visitation.jpeg",
+        "description": "During the night, Joseph Smith was visited three times by the angel Moroni, who told him about an ancient record written on gold plates. Moroni instructed Joseph that these plates contained the history of ancient inhabitants of the Americas and the fullness of the gospel of Jesus Christ.",
+        "image": "images/Moroni Visitation.jpeg",
         "links": {
             "Joseph Smith - History 1:30-49": "https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng&id=p30",
             "Video": "https://www.churchofjesuschrist.org/media/video/1ef19863776b11ef82b6063a8fac2bb3b38c66e0?lang=eng",
@@ -27,10 +27,10 @@ timeline = [
     {
         "event": "Receiving the Gold Plates",
         "date": "September 22, 1827",
-        "description": "Joseph Smith receives the gold plates from Moroni and begins translation.",
-        "image": "images/receiving-of-plates.jpeg",
+        "description": "After four years of preparation, Joseph Smith was entrusted with the gold plates by Moroni. He was warned to protect them from those who would seek to take them and was given the responsibility to translate their sacred record into what would become the Book of Mormon.",
+        "image": "images/Receiving of Plates.jpg",
         "links": {
-            "Book or Mormon Overview": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/book-of-mormon",
+            "Book of Mormon Overview": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/book-of-mormon",
             "Video": "https://www.churchofjesuschrist.org/media/video/PD60007269_joseph-smith-and-the-gold-plates?lang=eng",
             "Saints Chapter 3": "https://www.churchofjesuschrist.org/study/history/saints-v1/03-plates-of-gold"
         }
@@ -38,7 +38,7 @@ timeline = [
     {
         "event": "Translation of the Book of Mormon",
         "date": "1827-1829",
-        "description": "Joseph Smith translates the Book of Mormon through divine means.",
+        "description": "With divine assistance, Joseph Smith translated the gold plates into English. Using the Urim and Thummim and other means, he dictated the translation to scribes, including Oliver Cowdery. The work resulted in the publication of the Book of Mormon, a sacred text of scripture.",
         "image": "images/translation.jpeg",
         "links": {
             "Book of Mormon Translation Overview": "https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/book-of-mormon-translation?lang=eng",
@@ -49,8 +49,8 @@ timeline = [
     {
         "event": "Restoration of the Priesthood",
         "date": "May 15, 1829",
-        "description": "John the Baptist confers the Aaronic Priesthood on Joseph Smith and Oliver Cowdery. Later, Peter, James, and John restore the Melchizedek Priesthood.",
-        "image": "images/Priesthood-Restoration.jpeg",
+        "description": "As Joseph Smith and Oliver Cowdery prayed about baptism, John the Baptist appeared and conferred the Aaronic Priesthood upon them. Later, Peter, James, and John restored the Melchizedek Priesthood, granting them the authority to organize Christ’s Church and administer sacred ordinances.",
+        "image": "images/Priesthood Restoration.jpeg",
         "links": {
             "Doctrine & Covenants 13": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/13",
             "Video": "https://www.churchofjesuschrist.org/media/video/2010-05-1130-restoration-of-the-priesthood?lang=eng",
@@ -60,8 +60,8 @@ timeline = [
     {
         "event": "Organization of the Church",
         "date": "April 6, 1830",
-        "description": "The Church of Jesus Christ of Latter-day Saints is officially organized in Fayette, New York.",
-        "image": "images/church-organization.jpeg",
+        "description": "In a small log home in Fayette, New York, Joseph Smith formally organized The Church of Jesus Christ of Latter-day Saints. The event fulfilled divine instruction, establishing a restored church with priesthood authority, continuing revelation, and a growing body of scripture.",
+        "image": "images/church organization.jpeg",
         "links": {
             "Doctrine & Covenants 20": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/20",
             "Video": "https://www.churchofjesuschrist.org/media/video/2010-07-0022-organization-of-the-church?lang=eng",
@@ -71,8 +71,8 @@ timeline = [
     {
         "event": "Early Growth and Revelation",
         "date": "1830–1831",
-        "description": "Missionary work expands, including a mission to the Lamanites. The Saints gather to Kirtland, Ohio.",
-        "image": "images/early-growth.jpeg",
+        "description": "As missionary work expanded, the Church saw rapid growth, including a mission to the Native Americans. New revelations guided the Saints, leading them to gather in Kirtland, Ohio, where the Lord revealed further instructions concerning Zion and the organization of the Church.",
+        "image": "images/early growth.jpg",
         "links": {
             "Doctrine & Covenants 37-38": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/37",
             "Video": "https://youtu.be/1I48maW9ScE?si=iR-XOW93eBWGLRtx",
@@ -82,8 +82,8 @@ timeline = [
     {
         "event": "The Law of Consecration Revealed",
         "date": "1831",
-        "description": "The Law of Consecration is revealed, commanding Saints to build Zion through stewardship and unity.",
-        "image": "images/consecration-store.jpg",
+        "description": "The Lord commanded the Saints to live the Law of Consecration, a divine economic system where resources were shared for the establishment of Zion. Though not always successfully implemented, the law emphasized stewardship, unity, and the equitable distribution of wealth.",
+        "image": "images/consecration.jpg",
         "links": {
             "Doctrine & Covenants 42": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/42",
             "Video": "https://youtu.be/mydbrzSfvDw?si=8KVXjNeXVnTlyfFk",
@@ -93,8 +93,8 @@ timeline = [
     {
         "event": "Zion and Expulsion from Missouri",
         "date": "1831–1839",
-        "description": "Independence, Missouri, is designated as Zion, but persecution forces the Saints to leave due to conflicts with local settlers.",
-        "image": "images/expulsion-from-missouri.jpeg",
+        "description": "The Lord designated Independence, Missouri, as Zion, where the Saints would gather in preparation for the Second Coming. However, intense persecution from local settlers led to violent conflicts, forcing the Saints to flee to Illinois and eventually settle in Nauvoo.",
+        "image": "images/expulsion from missouri.jpg",
         "links": {
             "Doctrine & Covenants 57": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/57",
             "Video": "https://www.churchofjesuschrist.org/media/video/31122_000_039?lang=eng&alang=eng&collectionId=5c1de78ee8f16e1e3788514dbc8f04a97b2840bc",
@@ -104,8 +104,8 @@ timeline = [
     {
         "event": "Vision of the Three Degrees of Glory",
         "date": "February 16, 1832",
-        "description": "Joseph Smith and Sidney Rigdon receive a vision outlining the Celestial, Terrestrial, and Telestial Kingdoms.",
-        "image": "images/three-degrees-of-glory.jpeg",
+        "description": "Joseph Smith and Sidney Rigdon received a vision of the afterlife, revealing the Celestial, Terrestrial, and Telestial Kingdoms. This revelation expanded Christian doctrine on salvation, emphasizing the degrees of glory rather than a strict heaven-and-hell dichotomy.",
+        "image": "images/three degrees of glory.jpeg",
         "links": {
             "Doctrine & Covenants 76": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76",
             "Video": "https://www.churchofjesuschrist.org/media/video/2018-03-0100-joseph-smiths-vision-of-heaven?lang=eng",
@@ -115,8 +115,8 @@ timeline = [
     {
         "event": "The Kirtland Temple and Restoration of Priesthood Keys",
         "date": "March–April 1836",
-        "description": "The Kirtland Temple is dedicated, and Christ, Moses, Elias, and Elijah appear to restore priesthood keys.",
-        "image": "images/kirtland-temple.jpeg",
+        "description": "The Kirtland Temple was dedicated as the first House of the Lord in this dispensation. During a sacred vision, Jesus Christ appeared, followed by Moses, Elias, and Elijah, who restored priesthood keys necessary for temple work, missionary efforts, and the gathering of Israel.",
+        "image": "images/kirtland temple.jpg",
         "links": {
             "Doctrine & Covenants 110": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110",
             "Video": "https://youtu.be/iBMl4Qgj4YQ?si=rBaiqaJVgyegjJ8F",
@@ -126,8 +126,8 @@ timeline = [
     {
         "event": "The Nauvoo Period",
         "date": "1839–1844",
-        "description": "Nauvoo is established, temple ordinances are revealed, and the Relief Society is organized.",
-        "image": "images/nauvoo.jpeg",
+        "description": "After fleeing Missouri, the Saints established Nauvoo, Illinois, which became a thriving city. During this period, temple ordinances were revealed, the Relief Society was organized, and Joseph Smith continued to receive revelations, including teachings on eternal marriage and exaltation.",
+        "image": "images/nauvoo.jpg",
         "links": {
             "Doctrine & Covenants 124": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/124",
             "Video": "https://www.churchofjesuschrist.org/media/video/2009-02-1038-episode-38-nauvoo-beginnings?lang=eng",
@@ -137,7 +137,7 @@ timeline = [
     {
         "event": "Martyrdom of Joseph and Hyrum Smith",
         "date": "June 27, 1844",
-        "description": "Joseph and Hyrum Smith are martyred at Carthage Jail.",
+        "description": "Facing growing opposition, Joseph Smith was arrested and taken to Carthage Jail. On June 27, a mob stormed the jail and assassinated Joseph and his brother Hyrum, marking a pivotal moment in Church history and leading to the succession of Brigham Young as the next prophet.",
         "image": "images/martyrdom.jpeg",
         "links": {
             "Doctrine & Covenants 135": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/135?lang=eng#",
@@ -148,8 +148,8 @@ timeline = [
     {
         "event": "The Exodus to the West",
         "date": "1846–1847",
-        "description": "Brigham Young leads the Saints west, and the Salt Lake Valley is settled in July 1847.",
-        "image": "images/exodus-to-west.jpeg",
+        "description": "Following the martyrdom of Joseph Smith, Brigham Young led the Saints westward to escape persecution. After months of hardship, the pioneers arrived in the Salt Lake Valley in July 1847, fulfilling prophecies of gathering and establishing a new home for the Church.",
+        "image": "images/exodus to west.jpeg",
         "links": {
             "Doctrine & Covenants 136": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/136?lang=eng#study_intro1",
             "Video": "https://www.churchofjesuschrist.org/media/video/2009-02-1035-episode-35-the-mormon-exodus-from-missouri?lang=ase&alang=eng&collectionId=69702fe5b9d07af52d369dfd20b9c5dcf820ba78",
@@ -168,11 +168,23 @@ def display_timeline():
             print(f"{key}: {link}")
         print("-" * 80)
 
-# Function to export the timeline to JSON
+# Function to export the timeline to JSON with the correct order
 def export_timeline(filename="timeline.json"):
+    ordered_timeline = []
+    for event in timeline:
+        ordered_timeline.append({
+            "event": event["event"],
+            "date": event["date"],
+            "description": event["description"],
+            "image": event["image"],
+            "links": event["links"]
+        })
+
     with open(filename, "w") as file:
-        json.dump(timeline, file, indent=4)
-    print(f"Timeline exported to {filename}")
+        json.dump(ordered_timeline, file, indent=4)
+
+    print(f"Timeline exported to {filename} with correct key order.")
+
 
 if __name__ == "__main__":
     display_timeline()

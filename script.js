@@ -1,46 +1,66 @@
-// Fetch and display the timeline
-fetch("./timeline.json")
-    .then(response => {
-        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
-        return response.json();
-    })
+const timelineContainer = document.getElementById("timeline-events");
+const eventDetails = document.getElementById("event-details");
+const eventTitle = document.getElementById("event-title");
+const eventDescription = document.getElementById("event-description");
+const eventLinks = document.getElementById("event-links");
+
+// Fetch and populate timeline with images
+fetch("timeline.json")
+    .then(response => response.json())
     .then(data => {
-        console.log("Timeline data loaded:", data);
-
-        const timelineContainer = document.getElementById("timeline");
-        if (!timelineContainer) {
-            console.error("Error: timeline container not found!");
-            return;
-        }
-
-        timelineContainer.innerHTML = ""; // Clear previous content
-
-        data.forEach(event => {
-            console.log(`Adding event: ${event.event}`);
-            console.log(`Image path: ${event.image}`);
-
-            const eventDiv = document.createElement("div");
-            eventDiv.classList.add("event");
-
-            eventDiv.innerHTML = `
-                <h3>${event.date}: ${event.event}</h3>
-                <img src="${event.image}" alt="${event.event}" onerror="this.style.display='none'">
-                <p class="event-description">${event.description}</p>
-                <div class="event-links">
-                    ${Object.entries(event.links).map(([key, link]) => 
-                        `<a href="${link}" target="_blank">${key}</a>`).join(" | ")}
-                </div>
-            `;
-
-            eventDiv.addEventListener("mouseenter", () => {
-                eventDiv.querySelector(".event-links").style.display = "block";
-            });
-
-            eventDiv.addEventListener("mouseleave", () => {
-                eventDiv.querySelector(".event-links").style.display = "none";
-            });
-
-            timelineContainer.appendChild(eventDiv);
-        });
+        populateTimeline(data);
     })
-    .catch(error => console.error("Error loading timeline:", error));
+    .catch(error => console.error("Error loading timeline data:", error));
+
+function populateTimeline(timelineEvents) {
+    timelineContainer.innerHTML = ""; // Clear existing content
+    timelineContainer.classList.add("horizontal-timeline"); // Add class for styling
+
+    const timelineLine = document.createElement("div");
+    timelineLine.classList.add("timeline-line"); // This will be styled as the actual timeline
+    timelineContainer.appendChild(timelineLine);
+
+    timelineEvents.forEach((event, index) => {
+        const eventDiv = document.createElement("div");
+        eventDiv.classList.add("event");
+
+        const eventMarker = document.createElement("div");
+        eventMarker.classList.add("event-marker");
+
+        const eventImage = document.createElement("img");
+        eventImage.src = event.image;
+        eventImage.alt = event.event;
+        eventImage.dataset.index = index;
+
+        eventImage.addEventListener("click", function () {
+            showEventDetails(event);
+        });
+
+        eventDiv.appendChild(eventMarker);
+        eventDiv.appendChild(eventImage);
+        timelineContainer.appendChild(eventDiv);
+    });
+}
+
+function showEventDetails(event) {
+    document.getElementById("event-date").textContent = event.date; // Ensure date is displayed
+    document.getElementById("event-title").textContent = event.event;
+    document.getElementById("event-description").textContent = event.description;
+
+    const eventLinks = document.getElementById("event-links");
+    eventLinks.innerHTML = ""; // Clear previous links
+
+    if (event.links) {
+        for (const [text, url] of Object.entries(event.links)) {
+            const link = document.createElement("a");
+            link.href = url;
+            link.textContent = text;
+            link.target = "_blank";
+            eventLinks.appendChild(link);
+        }
+    } else {
+        eventLinks.innerHTML = "<p>No additional links available.</p>";
+    }
+
+    document.getElementById("event-details").style.display = "block"; // Show details section
+}
