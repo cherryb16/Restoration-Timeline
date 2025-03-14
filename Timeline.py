@@ -34,7 +34,7 @@ timeline = [
     },
     {
         "event": "Translation of the Book of Mormon",
-        "date": "1827–1829",
+        "date": "1827-1829",
         "description": "Joseph Smith translates the Book of Mormon through divine means.",
         "links": {
             "Gospel Topic": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/book-of-mormon-translation",
