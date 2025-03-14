@@ -1,5 +1,5 @@
 // Fetch and display the timeline
-fetch("timeline.json")
+fetch("./timeline.json")
     .then(response => response.json())
     .then(data => {
         const timelineContainer = document.getElementById("timeline");

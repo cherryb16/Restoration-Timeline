@@ -7,9 +7,9 @@ timeline = [
         "date": "Spring 1820",
         "description": "Joseph Smith prays to know which church is true. God the Father and Jesus Christ appear and instruct him not to join any existing churches.",
         "links": {
-            "Scripture": "https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng",
+            "Joseph Smith - History 1": "https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng",
             "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-002-the-first-vision",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/01-ask-in-faith"
+            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/02-hear-him"
         }
     },
     {
@@ -29,7 +29,7 @@ timeline = [
         "links": {
             "Gospel Topic": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/book-of-mormon",
             "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-004-the-work-of-god",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/04-be-watchful"
+            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/03-plates-of-gold"
         }
     },
     {
@@ -39,9 +39,9 @@ timeline = [
         "links": {
             "Gospel Topic": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/book-of-mormon-translation",
             "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-006-a-book-of-mormon-story",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/05-all-is-lost"
+            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/06-the-gift-and-power-of-god"
         }
-        },
+    },
     {
         "event": "Restoration of the Priesthood",
         "date": "May 15, 1829",
@@ -59,7 +59,7 @@ timeline = [
         "links": {
             "Doctrine & Covenants 20": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/20",
             "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-010-the-church-is-organized",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/08-rise-of-the-church"
+            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/08-the-rise-of-the-church-of-christ"
         }
     },
     {
@@ -69,7 +69,7 @@ timeline = [
         "links": {
             "Doctrine & Covenants 37-38": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/37",
             "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-013-gathering-to-ohio",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/09-come-to-the-ohio"
+            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/09-come-life-or-come-death"
         }
     },
     {
@@ -78,7 +78,7 @@ timeline = [
         "description": "The Law of Consecration is revealed, commanding Saints to build Zion through stewardship and unity.",
         "links": {
             "Doctrine & Covenants 42": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/42",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/12-a-perfect-society"
+            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/11-ye-shall-receive-my-law"
         }
     },
     {
@@ -88,7 +88,7 @@ timeline = [
         "links": {
             "Doctrine & Covenants 57": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/57",
             "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-018-persecution-in-missouri",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/17-the-eyes-of-the-people"
+            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/18-the-camp-of-israel"
         }
     },
     {
@@ -97,7 +97,7 @@ timeline = [
         "description": "Joseph Smith and Sidney Rigdon receive a vision outlining the Celestial, Terrestrial, and Telestial Kingdoms.",
         "links": {
             "Doctrine & Covenants 76": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/15-a-vision-of-heaven"
+            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/14-visions-and-nightmares"
         }
     },
     {
@@ -107,7 +107,7 @@ timeline = [
         "links": {
             "Doctrine & Covenants 110": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110",
             "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-024-the-kirtland-temple-dedication",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/21-endowed-with-power"
+            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/21-the-spirit-of-god"
         }
     },
     {
@@ -116,7 +116,7 @@ timeline = [
         "description": "Nauvoo is established, temple ordinances are revealed, and the Relief Society is organized.",
         "links": {
             "Doctrine & Covenants 124": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/124",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/29-the-temple-of-god"
+            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/34-build-up-a-city"
         }
     },
     {
@@ -124,7 +124,8 @@ timeline = [
         "date": "June 27, 1844",
         "description": "Joseph and Hyrum Smith are martyred at Carthage Jail.",
         "links": {
-            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-029-joseph-smith-prophet-of-the-restoration"
+            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-029-joseph-smith-prophet-of-the-restoration",
+            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/44-a-lamb-to-the-slaughter"
         }
     },
     {
@@ -132,7 +133,8 @@ timeline = [
         "date": "1846–1847",
         "description": "Brigham Young leads the Saints west, and the Salt Lake Valley is settled in July 1847.",
         "links": {
-            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-031-the-pioneers-journey-west"
+            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-031-the-pioneers-journey-west",
+            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/46-endowed-with-power"
         }
     }
 ]
@@ -147,7 +149,7 @@ def display_timeline():
         print("-" * 80)
 
 # Function to export the timeline to JSON
-def export_timeline(filename="timeline.json"):
+def export_timeline(filename="Restoration Project/timeline.json"):
     with open(filename, "w") as file:
         json.dump(timeline, file, indent=4)
     print(f"Timeline exported to {filename}")
@@ -155,5 +157,3 @@ def export_timeline(filename="timeline.json"):
 if __name__ == "__main__":
     display_timeline()
     export_timeline()
-
-
