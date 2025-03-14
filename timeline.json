@@ -95,7 +95,8 @@
         "description": "Joseph Smith and Sidney Rigdon receive a vision outlining the Celestial, Terrestrial, and Telestial Kingdoms.",
         "links": {
             "Doctrine & Covenants 76": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/14-visions-and-nightmares"
+            "Video": "https://www.churchofjesuschrist.org/media/video/2018-03-0100-joseph-smiths-vision-of-heaven?lang=eng",
+            "Saints Chapter 14": "https://www.churchofjesuschrist.org/study/history/saints-v1/14-visions-and-nightmares"
         }
     },
     {
@@ -104,8 +105,8 @@
         "description": "The Kirtland Temple is dedicated, and Christ, Moses, Elias, and Elijah appear to restore priesthood keys.",
         "links": {
             "Doctrine & Covenants 110": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110",
-            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-024-the-kirtland-temple-dedication",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/21-the-spirit-of-god"
+            "Video": "https://youtu.be/iBMl4Qgj4YQ?si=rBaiqaJVgyegjJ8F",
+            "Saints Chapter 21": "https://www.churchofjesuschrist.org/study/history/saints-v1/21-the-spirit-of-god"
         }
     },
     {
@@ -114,7 +115,8 @@
         "description": "Nauvoo is established, temple ordinances are revealed, and the Relief Society is organized.",
         "links": {
             "Doctrine & Covenants 124": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/124",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/34-build-up-a-city"
+            "Video": "https://www.churchofjesuschrist.org/media/video/2009-02-1038-episode-38-nauvoo-beginnings?lang=eng",
+            "Saints Chapter 34": "https://www.churchofjesuschrist.org/study/history/saints-v1/34-build-up-a-city"
         }
     },
     {
@@ -122,8 +124,9 @@
         "date": "June 27, 1844",
         "description": "Joseph and Hyrum Smith are martyred at Carthage Jail.",
         "links": {
-            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-029-joseph-smith-prophet-of-the-restoration",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/44-a-lamb-to-the-slaughter"
+            "Doctrine & Covenants 135": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/135?lang=eng#",
+            "Video": "https://www.churchofjesuschrist.org/media/video/2009-02-1049-episode-49-the-martyrdom-of-joseph-and-hyrum-smith?lang=eng",
+            "Saints Chapter 44": "https://www.churchofjesuschrist.org/study/history/saints-v1/44-a-lamb-to-the-slaughter"
         }
     },
     {
@@ -131,8 +134,9 @@
         "date": "1846\u20131847",
         "description": "Brigham Young leads the Saints west, and the Salt Lake Valley is settled in July 1847.",
         "links": {
-            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-031-the-pioneers-journey-west",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/46-endowed-with-power"
+            "Doctrine and Covenants 136": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/136?lang=eng#study_intro1",
+            "Video": "https://www.churchofjesuschrist.org/media/video/2009-02-1035-episode-35-the-mormon-exodus-from-missouri?lang=ase&alang=eng&collectionId=69702fe5b9d07af52d369dfd20b9c5dcf820ba78",
+            "Saints Chapter 46": "https://www.churchofjesuschrist.org/study/history/saints-v1/46-endowed-with-power"
         }
     }
 ]
