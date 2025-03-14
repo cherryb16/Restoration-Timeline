@@ -42,7 +42,7 @@ timeline = [
         "image": "images/Translation.jpeg",
         "links": {
             "Book of Mormon Translation Overview": "https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/book-of-mormon-translation?lang=eng",
-            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-006-a-book-of-mormon-story",
+            "Video": "https://www.churchofjesuschrist.org/media/video/2009-02-1012-episode-12-the-book-of-mormon-translation?lang=eng",
             "Saints Chapter 6": "https://www.churchofjesuschrist.org/study/history/saints-v1/06-the-gift-and-power-of-god"
         }
     },
