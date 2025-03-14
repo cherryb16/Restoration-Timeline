@@ -9,7 +9,7 @@ timeline = [
         "links": {
             "Scripture": "https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng",
             "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-002-the-first-vision",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/02-ask-in-faith"
+            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/01-ask-in-faith"
         }
     },
     {
