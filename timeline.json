@@ -4,9 +4,9 @@
         "date": "Spring 1820",
         "description": "Joseph Smith prays to know which church is true. God the Father and Jesus Christ appear and instruct him not to join any existing churches.",
         "links": {
-            "Joseph Smith - History 1": "https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng",
-            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-002-the-first-vision",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/02-hear-him"
+            "Joseph Smith - History 1:15-20": "https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng&id=p15",
+            "Video": "https://www.churchofjesuschrist.org/media/video/2014-06-0001-joseph-smiths-first-vision?lang=eng",
+            "Saints Chapter 2": "https://www.churchofjesuschrist.org/study/history/saints-v1/02-hear-him"
         }
     },
     {
@@ -14,9 +14,9 @@
         "date": "September 21, 1823",
         "description": "The angel Moroni visits Joseph Smith and tells him about the gold plates.",
         "links": {
-            "Scripture": "https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng",
-            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-003-moroni-appears-to-joseph-smith",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/03-plates-of-gold"
+            "Joseph Smith - History 1:30-49": "https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng&id=p30",
+            "Video": "https://www.churchofjesuschrist.org/media/video/1ef19863776b11ef82b6063a8fac2bb3b38c66e0?lang=eng",
+            "Saints Chapter 3": "https://www.churchofjesuschrist.org/study/history/saints-v1/03-plates-of-gold"
         }
     },
     {
@@ -24,9 +24,9 @@
         "date": "September 22, 1827",
         "description": "Joseph Smith receives the gold plates from Moroni and begins translation.",
         "links": {
-            "Gospel Topic": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/book-of-mormon",
-            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-004-the-work-of-god",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/03-plates-of-gold"
+            "Book or Mormon Overview": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/book-of-mormon",
+            "Video": "https://www.churchofjesuschrist.org/media/video/PD60007269_joseph-smith-and-the-gold-plates?lang=eng",
+            "Saints Chapter 3": "https://www.churchofjesuschrist.org/study/history/saints-v1/03-plates-of-gold"
         }
     },
     {
@@ -34,9 +34,9 @@
         "date": "1827-1829",
         "description": "Joseph Smith translates the Book of Mormon through divine means.",
         "links": {
-            "Gospel Topic": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/book-of-mormon-translation",
+            "Book of Mormon Translation Overview": "https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/book-of-mormon-translation?lang=eng",
             "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-006-a-book-of-mormon-story",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/06-the-gift-and-power-of-god"
+            "Saints Chapter 6": "https://www.churchofjesuschrist.org/study/history/saints-v1/06-the-gift-and-power-of-god"
         }
     },
     {
@@ -45,8 +45,8 @@
         "description": "John the Baptist confers the Aaronic Priesthood on Joseph Smith and Oliver Cowdery. Later, Peter, James, and John restore the Melchizedek Priesthood.",
         "links": {
             "Doctrine & Covenants 13": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/13",
-            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-009-restoration-of-the-priesthood",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/07-fellow-servants"
+            "Video": "https://www.churchofjesuschrist.org/media/video/2010-05-1130-restoration-of-the-priesthood?lang=eng",
+            "Saints Chapter 7": "https://www.churchofjesuschrist.org/study/history/saints-v1/07-fellow-servants"
         }
     },
     {
@@ -55,8 +55,8 @@
         "description": "The Church of Jesus Christ of Latter-day Saints is officially organized in Fayette, New York.",
         "links": {
             "Doctrine & Covenants 20": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/20",
-            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-010-the-church-is-organized",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/08-the-rise-of-the-church-of-christ"
+            "Video": "https://www.churchofjesuschrist.org/media/video/2010-07-0022-organization-of-the-church?lang=eng",
+            "Saints Chapter 8": "https://www.churchofjesuschrist.org/study/history/saints-v1/08-the-rise-of-the-church-of-christ"
         }
     },
     {
@@ -65,8 +65,8 @@
         "description": "Missionary work expands, including a mission to the Lamanites. The Saints gather to Kirtland, Ohio.",
         "links": {
             "Doctrine & Covenants 37-38": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/37",
-            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-013-gathering-to-ohio",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/09-come-life-or-come-death"
+            "Video": "https://youtu.be/1I48maW9ScE?si=iR-XOW93eBWGLRtx",
+            "Saints Chapter 9": "https://www.churchofjesuschrist.org/study/history/saints-v1/09-come-life-or-come-death"
         }
     },
     {
@@ -75,7 +75,8 @@
         "description": "The Law of Consecration is revealed, commanding Saints to build Zion through stewardship and unity.",
         "links": {
             "Doctrine & Covenants 42": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/42",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/11-ye-shall-receive-my-law"
+            "Video": "https://youtu.be/mydbrzSfvDw?si=8KVXjNeXVnTlyfFk",
+            "Saints Chapter 11": "https://www.churchofjesuschrist.org/study/history/saints-v1/11-ye-shall-receive-my-law"
         }
     },
     {
@@ -84,8 +85,8 @@
         "description": "Independence, Missouri, is designated as Zion, but persecution forces the Saints to leave due to conflicts with local settlers.",
         "links": {
             "Doctrine & Covenants 57": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/57",
-            "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-018-persecution-in-missouri",
-            "Saints Chapter": "https://www.churchofjesuschrist.org/study/history/saints-v1/18-the-camp-of-israel"
+            "Video": "https://www.churchofjesuschrist.org/media/video/31122_000_039?lang=eng&alang=eng&collectionId=5c1de78ee8f16e1e3788514dbc8f04a97b2840bc",
+            "Saints Chapter 18": "https://www.churchofjesuschrist.org/study/history/saints-v1/18-the-camp-of-israel"
         }
     },
     {
