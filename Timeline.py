@@ -6,6 +6,7 @@ timeline = [
         "event": "The First Vision",
         "date": "Spring 1820",
         "description": "Joseph Smith prays to know which church is true. God the Father and Jesus Christ appear and instruct him not to join any existing churches.",
+        "image": "images/first-vision.jpeg",
         "links": {
             "Joseph Smith - History 1:15-20": "https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng&id=p15",
             "Video": "https://www.churchofjesuschrist.org/media/video/2014-06-0001-joseph-smiths-first-vision?lang=eng",
@@ -16,6 +17,7 @@ timeline = [
         "event": "The Visitation of Moroni",
         "date": "September 21, 1823",
         "description": "The angel Moroni visits Joseph Smith and tells him about the gold plates.",
+        "image": "images/moroni-visitation.jpeg",
         "links": {
             "Joseph Smith - History 1:30-49": "https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng&id=p30",
             "Video": "https://www.churchofjesuschrist.org/media/video/1ef19863776b11ef82b6063a8fac2bb3b38c66e0?lang=eng",
@@ -26,6 +28,7 @@ timeline = [
         "event": "Receiving the Gold Plates",
         "date": "September 22, 1827",
         "description": "Joseph Smith receives the gold plates from Moroni and begins translation.",
+        "image": "images/receiving-of-plates.jpeg",
         "links": {
             "Book or Mormon Overview": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/book-of-mormon",
             "Video": "https://www.churchofjesuschrist.org/media/video/PD60007269_joseph-smith-and-the-gold-plates?lang=eng",
@@ -36,6 +39,7 @@ timeline = [
         "event": "Translation of the Book of Mormon",
         "date": "1827-1829",
         "description": "Joseph Smith translates the Book of Mormon through divine means.",
+        "image": "images/translation.jpeg",
         "links": {
             "Book of Mormon Translation Overview": "https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/book-of-mormon-translation?lang=eng",
             "Video": "https://www.churchofjesuschrist.org/media/video/2011-03-006-a-book-of-mormon-story",
@@ -46,6 +50,7 @@ timeline = [
         "event": "Restoration of the Priesthood",
         "date": "May 15, 1829",
         "description": "John the Baptist confers the Aaronic Priesthood on Joseph Smith and Oliver Cowdery. Later, Peter, James, and John restore the Melchizedek Priesthood.",
+        "image": "images/Priesthood-Restoration.jpeg",
         "links": {
             "Doctrine & Covenants 13": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/13",
             "Video": "https://www.churchofjesuschrist.org/media/video/2010-05-1130-restoration-of-the-priesthood?lang=eng",
@@ -56,6 +61,7 @@ timeline = [
         "event": "Organization of the Church",
         "date": "April 6, 1830",
         "description": "The Church of Jesus Christ of Latter-day Saints is officially organized in Fayette, New York.",
+        "image": "images/church-organization.jpeg",
         "links": {
             "Doctrine & Covenants 20": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/20",
             "Video": "https://www.churchofjesuschrist.org/media/video/2010-07-0022-organization-of-the-church?lang=eng",
@@ -66,6 +72,7 @@ timeline = [
         "event": "Early Growth and Revelation",
         "date": "1830–1831",
         "description": "Missionary work expands, including a mission to the Lamanites. The Saints gather to Kirtland, Ohio.",
+        "image": "images/early-growth.jpeg",
         "links": {
             "Doctrine & Covenants 37-38": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/37",
             "Video": "https://youtu.be/1I48maW9ScE?si=iR-XOW93eBWGLRtx",
@@ -76,6 +83,7 @@ timeline = [
         "event": "The Law of Consecration Revealed",
         "date": "1831",
         "description": "The Law of Consecration is revealed, commanding Saints to build Zion through stewardship and unity.",
+        "image": "images/consecration-store.jpg",
         "links": {
             "Doctrine & Covenants 42": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/42",
             "Video": "https://youtu.be/mydbrzSfvDw?si=8KVXjNeXVnTlyfFk",
@@ -86,6 +94,7 @@ timeline = [
         "event": "Zion and Expulsion from Missouri",
         "date": "1831–1839",
         "description": "Independence, Missouri, is designated as Zion, but persecution forces the Saints to leave due to conflicts with local settlers.",
+        "image": "images/expulsion-from-missouri.jpeg",
         "links": {
             "Doctrine & Covenants 57": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/57",
             "Video": "https://www.churchofjesuschrist.org/media/video/31122_000_039?lang=eng&alang=eng&collectionId=5c1de78ee8f16e1e3788514dbc8f04a97b2840bc",
@@ -96,6 +105,7 @@ timeline = [
         "event": "Vision of the Three Degrees of Glory",
         "date": "February 16, 1832",
         "description": "Joseph Smith and Sidney Rigdon receive a vision outlining the Celestial, Terrestrial, and Telestial Kingdoms.",
+        "image": "images/three-degrees-of-glory.jpeg",
         "links": {
             "Doctrine & Covenants 76": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76",
             "Video": "https://www.churchofjesuschrist.org/media/video/2018-03-0100-joseph-smiths-vision-of-heaven?lang=eng",
@@ -106,6 +116,7 @@ timeline = [
         "event": "The Kirtland Temple and Restoration of Priesthood Keys",
         "date": "March–April 1836",
         "description": "The Kirtland Temple is dedicated, and Christ, Moses, Elias, and Elijah appear to restore priesthood keys.",
+        "image": "images/kirtland-temple.jpeg",
         "links": {
             "Doctrine & Covenants 110": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110",
             "Video": "https://youtu.be/iBMl4Qgj4YQ?si=rBaiqaJVgyegjJ8F",
@@ -116,6 +127,7 @@ timeline = [
         "event": "The Nauvoo Period",
         "date": "1839–1844",
         "description": "Nauvoo is established, temple ordinances are revealed, and the Relief Society is organized.",
+        "image": "images/nauvoo.jpeg",
         "links": {
             "Doctrine & Covenants 124": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/124",
             "Video": "https://www.churchofjesuschrist.org/media/video/2009-02-1038-episode-38-nauvoo-beginnings?lang=eng",
@@ -126,6 +138,7 @@ timeline = [
         "event": "Martyrdom of Joseph and Hyrum Smith",
         "date": "June 27, 1844",
         "description": "Joseph and Hyrum Smith are martyred at Carthage Jail.",
+        "image": "images/martyrdom.jpeg",
         "links": {
             "Doctrine & Covenants 135": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/135?lang=eng#",
             "Video": "https://www.churchofjesuschrist.org/media/video/2009-02-1049-episode-49-the-martyrdom-of-joseph-and-hyrum-smith?lang=eng",
@@ -136,6 +149,7 @@ timeline = [
         "event": "The Exodus to the West",
         "date": "1846–1847",
         "description": "Brigham Young leads the Saints west, and the Salt Lake Valley is settled in July 1847.",
+        "image": "images/exodus-to-west.jpeg",
         "links": {
             "Doctrine & Covenants 136": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/136?lang=eng#study_intro1",
             "Video": "https://www.churchofjesuschrist.org/media/video/2009-02-1035-episode-35-the-mormon-exodus-from-missouri?lang=ase&alang=eng&collectionId=69702fe5b9d07af52d369dfd20b9c5dcf820ba78",
@@ -149,6 +163,7 @@ def display_timeline():
     for event in timeline:
         print(f"{event['date']}: {event['event']}")
         print(f"Description: {event['description']}")
+        print(f"Image: {event['image']}")
         for key, link in event["links"].items():
             print(f"{key}: {link}")
         print("-" * 80)
@@ -162,4 +177,3 @@ def export_timeline(filename="timeline.json"):
 if __name__ == "__main__":
     display_timeline()
     export_timeline()
-
