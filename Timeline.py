@@ -149,7 +149,7 @@ def display_timeline():
         print("-" * 80)
 
 # Function to export the timeline to JSON
-def export_timeline(filename="Restoration Project/timeline.json"):
+def export_timeline(filename="timeline.json"):
     with open(filename, "w") as file:
         json.dump(timeline, file, indent=4)
     print(f"Timeline exported to {filename}")
@@ -157,3 +157,4 @@ def export_timeline(filename="Restoration Project/timeline.json"):
 if __name__ == "__main__":
     display_timeline()
     export_timeline()
+
