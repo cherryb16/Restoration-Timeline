@@ -13,7 +13,7 @@ body {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: nowrap;
     overflow-x: auto;
     padding: 50px 20px;
@@ -53,10 +53,7 @@ body {
 /* Event Details Section (Hidden Until Clicked) */
 #event-details {
     display: none;
-    position: absolute;
-    bottom: 10%; /* Adjusts position to about 3/4 of the screen */
-    left: 50%;
-    transform: translateX(-50%) translateY(-10%); /* Center horizontally, slight lift */
+    margin: 20px auto; /* Center and separate from timeline */
     background: rgba(0, 0, 0, 0.8);
     padding: 20px;
     border-radius: 10px;
@@ -133,4 +130,151 @@ body {
 .horizontal-timeline::-webkit-scrollbar-thumb {
     background: #00c6ff;
     border-radius: 4px;
+}
+
+/* Responsive Styles */
+
+/* Mobile screens */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .horizontal-timeline {
+        padding: 30px 10px;
+        height: 200px;
+    }
+    .event {
+        width: 100px;
+        margin: 0 15px;
+    }
+    .event img {
+        width: 100px;
+        height: 100px;
+        margin: 10px auto;
+    }
+    #event-details {
+        width: 90%;
+        padding: 15px;
+        font-size: 14px;
+    }
+    #event-title {
+        font-size: 20px;
+    }
+    #event-date {
+        font-size: 16px;
+    }
+    #event-description {
+        font-size: 14px;
+    }
+}
+
+/* Tablet and small desktop screens */
+@media (min-width: 601px) and (max-width: 1200px) {
+    .horizontal-timeline {
+        padding: 40px 15px;
+        height: 250px;
+    }
+    .event {
+        width: 110px;
+        margin: 0 20px;
+    }
+    .event img {
+        width: 130px;
+        height: 130px;
+        margin: 15px auto;
+    }
+    #event-details {
+        width: 85%;
+        padding: 20px;
+    }
+}
+
+/* Larger screens */
+@media (min-width: 1201px) {
+    .horizontal-timeline {
+        padding: 50px 20px;
+        height: 300px;
+    }
+    .event {
+        width: 120px;
+        margin: 0 30px;
+    }
+    .event img {
+        width: 150px;
+        height: 150px;
+        margin: 20px auto;
+    }
+    #event-details {
+        width: 80%;
+        padding: 20px;
+    }
+}
+
+/* Extra Small Screens */
+@media (max-width: 400px) {
+    .horizontal-timeline {
+        padding: 20px 5px;
+        height: 180px;
+    }
+    .event {
+        width: 80px;
+        margin: 0 10px;
+    }
+    .event img {
+        width: 80px;
+        height: 80px;
+        margin: 5px auto;
+    }
+    #event-details {
+        width: 95%;
+        padding: 10px;
+        font-size: 12px;
+    }
+    #event-title {
+        font-size: 18px;
+    }
+    #event-date {
+        font-size: 14px;
+    }
+    #event-description {
+        font-size: 12px;
+    }
+}
+
+/* Short Height Screens */
+@media (max-height: 500px) {
+    .horizontal-timeline {
+        padding: 20px 10px;
+        height: 220px;
+    }
+    .event {
+        width: 100px;
+        margin: 0 10px;
+    }
+    .event img {
+        width: 100px;
+        height: 100px;
+        margin: 10px auto;
+    }
+    #event-details {
+        bottom: 5%; /* Adjust position upward to avoid overlap */
+        padding: 10px;
+        width: 90%;
+        font-size: 12px;
+        max-height: 200px;
+    }
+    #event-title {
+        font-size: 16px;
+    }
+    #event-date {
+        font-size: 14px;
+    }
+    #event-description {
+        font-size: 12px;
+    }
+}
+
+html, body {
+    min-height: 600px;  /* Adjust this value as needed */
+    overflow-y: auto;
 }
