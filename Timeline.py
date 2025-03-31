@@ -58,7 +58,7 @@ timeline = [
         }
     },
     {
-        "event": "Organization of the Church",
+        "event": "Organization of Church",
         "date": "April 6, 1830",
         "description": "In a small log home in Fayette, New York, Joseph Smith formally organized The Church of Jesus Christ of Latter-day Saints. The event fulfilled divine instruction, establishing a restored church with priesthood authority, continuing revelation, and a growing body of scripture.",
         "image": "images/Church-Organization.jpeg",
@@ -135,7 +135,7 @@ timeline = [
         }
     },
     {
-        "event": "Martyrdom of Joseph Smith",
+        "event": "Martyrdom of Joseph",
         "date": "June 27, 1844",
         "description": "Facing growing opposition, Joseph Smith was arrested and taken to Carthage Jail. On June 27, a mob stormed the jail and assassinated Joseph and his brother Hyrum, marking a pivotal moment in Church history and leading to the succession of Brigham Young as the next prophet.",
         "image": "images/Martyrdom.jpeg",

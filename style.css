@@ -16,10 +16,10 @@ body {
     justify-content: flex-start;
     flex-wrap: nowrap;
     overflow-x: auto;
-    padding: 50px 20px;
     max-width: 100%;
     height: 300px;
     white-space: nowrap;
+    overflow-y: hidden;
 }
 
 /* Event Container */
@@ -132,12 +132,21 @@ body {
     border-radius: 4px;
 }
 
+/* Base (for screens not covered by the media queries) */
+.event .event-title-thumb {
+    display: inline;
+    width: 150px;           /* Match the default .event img width */
+    margin: 0 auto 5px;     /* Center horizontally */
+    text-align: center;
+    color: #00c6ff;
+  }
+
 /* Responsive Styles */
 
 /* Mobile screens */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     body {
-        padding: 10px;
+        padding: 0px;
     }
     .horizontal-timeline {
         padding: 30px 10px;
@@ -145,12 +154,13 @@ body {
     }
     .event {
         width: 100px;
-        margin: 0 15px;
+        margin: 0 5px;
     }
     .event img {
         width: 100px;
         height: 100px;
         margin: 15px auto;
+        border: 3px;
     }
     #event-details {
         width: 90%;
@@ -172,38 +182,14 @@ body {
 }
 
 /* Tablet and small desktop screens */
-@media (min-width: 501px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 1200px) {
     .horizontal-timeline {
-        padding: 40px 15px;
+        padding: 15px;
         height: 250px;
     }
     .event {
-        width: 110px;
-        margin: 0 20px;
-    }
-    .event img {
         width: 130px;
-        height: 130px;
-        margin: 15px auto;
-    }
-    #event-details {
-        width: 85%;
         padding: 20px;
-    }
-    .event .event-title-thumb {
-        font-size: 10px;
-    }
-}
-
-/* Tablet and small desktop screens */
-@media (min-width: 901px) and (max-width: 1200px) {
-    .horizontal-timeline {
-        padding: 40px 15px;
-        height: 250px;
-    }
-    .event {
-        width: 110px;
-        margin: 0 20px;
     }
     .event img {
         width: 130px;
@@ -226,8 +212,8 @@ body {
         height: 500px;
     }
     .event {
-        width: 300px;
-        margin: 0 30px;
+        width: 250px;
+        padding: 25px;
     }
     .event img {
         width: 250px;
@@ -250,15 +236,4 @@ body {
     .event .event-title-thumb {
         font-size: 24px;
     }
-}
-
-html, body {
-    min-height: 600px;  /* Adjust this value as needed */
-    overflow-y: auto;
-}
-
-/* Title above images in timeline container */
-.event .event-title-thumb {
-    color: #00c6ff;
-    margin-bottom: 5px;
 }
