@@ -135,7 +135,7 @@ body {
 /* Responsive Styles */
 
 /* Mobile screens */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     body {
         padding: 10px;
     }
@@ -150,7 +150,7 @@ body {
     .event img {
         width: 100px;
         height: 100px;
-        margin: 10px auto;
+        margin: 15px auto;
     }
     #event-details {
         width: 90%;
@@ -166,10 +166,13 @@ body {
     #event-description {
         font-size: 14px;
     }
+    .event .event-title-thumb {
+        font-size: 8px;
+    }
 }
 
 /* Tablet and small desktop screens */
-@media (min-width: 601px) and (max-width: 1200px) {
+@media (min-width: 501px) and (max-width: 900px) {
     .horizontal-timeline {
         padding: 40px 15px;
         height: 250px;
@@ -186,6 +189,33 @@ body {
     #event-details {
         width: 85%;
         padding: 20px;
+    }
+    .event .event-title-thumb {
+        font-size: 10px;
+    }
+}
+
+/* Tablet and small desktop screens */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .horizontal-timeline {
+        padding: 40px 15px;
+        height: 250px;
+    }
+    .event {
+        width: 110px;
+        margin: 0 20px;
+    }
+    .event img {
+        width: 130px;
+        height: 130px;
+        margin: 25px auto;
+    }
+    #event-details {
+        width: 85%;
+        padding: 20px;
+    }
+    .event .event-title-thumb {
+        font-size: 12px;
     }
 }
 
@@ -217,38 +247,8 @@ body {
     #event-description {
         font-size: 24px;
     }
-}
-
-/* Short Height Screens */
-@media (max-height: 500px) {
-    .horizontal-timeline {
-        padding: 20px 10px;
-        height: 220px;
-    }
-    .event {
-        width: 100px;
-        margin: 0 10px;
-    }
-    .event img {
-        width: 100px;
-        height: 100px;
-        margin: 10px auto;
-    }
-    #event-details {
-        bottom: 5%; /* Adjust position upward to avoid overlap */
-        padding: 10px;
-        width: 90%;
-        font-size: 12px;
-        max-height: 200px;
-    }
-    #event-title {
-        font-size: 16px;
-    }
-    #event-date {
-        font-size: 14px;
-    }
-    #event-description {
-        font-size: 12px;
+    .event .event-title-thumb {
+        font-size: 24px;
     }
 }
 
@@ -259,8 +259,6 @@ html, body {
 
 /* Title above images in timeline container */
 .event .event-title-thumb {
-    font-size: 14px; /* Adjust size as needed */
-    text-align: center;
-    color: #00c6ff; /* Use same color as your main event title if desired */
-    margin-bottom: 5px; /* Space between title and image */
+    color: #00c6ff;
+    margin-bottom: 5px;
 }

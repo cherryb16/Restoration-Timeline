@@ -14,7 +14,7 @@ timeline = [
         }
     },
     {
-        "event": "The Visitation of Moroni",
+        "event": "Visitation of Moroni",
         "date": "September 21, 1823",
         "description": "During the night, Joseph Smith was visited three times by the angel Moroni, who told him about an ancient record written on gold plates. Moroni instructed Joseph that these plates contained the history of ancient inhabitants of the Americas and the fullness of the gospel of Jesus Christ.",
         "image": "images/Moroni-Visitation.jpeg",
@@ -25,7 +25,7 @@ timeline = [
         }
     },
     {
-        "event": "Receiving the Gold Plates",
+        "event": "Receiving Gold Plates",
         "date": "September 22, 1827",
         "description": "After four years of preparation, Joseph Smith was entrusted with the gold plates by Moroni. He was warned to protect them from those who would seek to take them and was given the responsibility to translate their sacred record into what would become the Book of Mormon.",
         "image": "images/Receiving-Plates.jpg",
@@ -36,7 +36,7 @@ timeline = [
         }
     },
     {
-        "event": "Translation of the Book of Mormon",
+        "event": "Book of Mormon Translation",
         "date": "1827-1829",
         "description": "With divine assistance, Joseph Smith translated the gold plates into English. Using the Urim and Thummim and other means, he dictated the translation to scribes, including Oliver Cowdery. The work resulted in the publication of the Book of Mormon, a sacred text of scripture.",
         "image": "images/Translation.jpeg",
@@ -47,7 +47,7 @@ timeline = [
         }
     },
     {
-        "event": "Restoration of the Priesthood",
+        "event": "Priesthood Restoration",
         "date": "May 15, 1829",
         "description": "As Joseph Smith and Oliver Cowdery prayed about baptism, John the Baptist appeared and conferred the Aaronic Priesthood upon them. Later, Peter, James, and John restored the Melchizedek Priesthood, granting them the authority to organize Christ’s Church and administer sacred ordinances.",
         "image": "images/Priesthood-Restoration.jpeg",
@@ -69,7 +69,7 @@ timeline = [
         }
     },
     {
-        "event": "Early Growth and Revelation",
+        "event": "Early Growth & Revelation",
         "date": "1830–1831",
         "description": "As missionary work expanded, the Church saw rapid growth, including a mission to the Native Americans. New revelations guided the Saints, leading them to gather in Kirtland, Ohio, where the Lord revealed further instructions concerning Zion and the organization of the Church.",
         "image": "images/Early-Growth.jpg",
@@ -80,7 +80,7 @@ timeline = [
         }
     },
     {
-        "event": "The Law of Consecration Revealed",
+        "event": "Law of Consecration",
         "date": "1831",
         "description": "The Lord commanded the Saints to live the Law of Consecration, a divine economic system where resources were shared for the establishment of Zion. Though not always successfully implemented, the law emphasized stewardship, unity, and the equitable distribution of wealth.",
         "image": "images/Consecration.jpg",
@@ -91,7 +91,7 @@ timeline = [
         }
     },
     {
-        "event": "Zion and Expulsion from Missouri",
+        "event": "Expulsion from Missouri",
         "date": "1831–1839",
         "description": "The Lord designated Independence, Missouri, as Zion, where the Saints would gather in preparation for the Second Coming. However, intense persecution from local settlers led to violent conflicts, forcing the Saints to flee to Illinois and eventually settle in Nauvoo.",
         "image": "images/Expulsion-from-Missouri.jpg",
@@ -102,7 +102,7 @@ timeline = [
         }
     },
     {
-        "event": "Vision of the Three Degrees of Glory",
+        "event": "Three Degrees of Glory",
         "date": "February 16, 1832",
         "description": "Joseph Smith and Sidney Rigdon received a vision of the afterlife, revealing the Celestial, Terrestrial, and Telestial Kingdoms. This revelation expanded Christian doctrine on salvation, emphasizing the degrees of glory rather than a strict heaven-and-hell dichotomy.",
         "image": "images/Three-Degrees-Glory.jpeg",
@@ -113,7 +113,7 @@ timeline = [
         }
     },
     {
-        "event": "The Kirtland Temple and Restoration of Priesthood Keys",
+        "event": "The Kirtland Temple",
         "date": "March–April 1836",
         "description": "The Kirtland Temple was dedicated as the first House of the Lord in this dispensation. During a sacred vision, Jesus Christ appeared, followed by Moses, Elias, and Elijah, who restored priesthood keys necessary for temple work, missionary efforts, and the gathering of Israel.",
         "image": "images/Kirtland-Temple.jpg",
@@ -135,7 +135,7 @@ timeline = [
         }
     },
     {
-        "event": "Martyrdom of Joseph and Hyrum Smith",
+        "event": "Martyrdom of Joseph Smith",
         "date": "June 27, 1844",
         "description": "Facing growing opposition, Joseph Smith was arrested and taken to Carthage Jail. On June 27, a mob stormed the jail and assassinated Joseph and his brother Hyrum, marking a pivotal moment in Church history and leading to the succession of Brigham Young as the next prophet.",
         "image": "images/Martyrdom.jpeg",
@@ -146,7 +146,7 @@ timeline = [
         }
     },
     {
-        "event": "The Exodus to the West",
+        "event": "Exodus to the West",
         "date": "1846–1847",
         "description": "Following the martyrdom of Joseph Smith, Brigham Young led the Saints westward to escape persecution. After months of hardship, the pioneers arrived in the Salt Lake Valley in July 1847, fulfilling prophecies of gathering and establishing a new home for the Church.",
         "image": "images/Exodus-West.jpeg",
