@@ -27,6 +27,11 @@ function populateTimeline(timelineEvents) {
         const eventMarker = document.createElement("div");
         eventMarker.classList.add("event-marker");
 
+        // Create a small title element above the image
+        const titleThumb = document.createElement("div");
+        titleThumb.classList.add("event-title-thumb");
+        titleThumb.textContent = event.event;
+
         const eventImage = document.createElement("img");
         eventImage.src = event.image;
         eventImage.alt = event.event;
@@ -37,6 +42,7 @@ function populateTimeline(timelineEvents) {
         });
 
         eventDiv.appendChild(eventMarker);
+        eventDiv.appendChild(titleThumb);
         eventDiv.appendChild(eventImage);
         timelineContainer.appendChild(eventDiv);
     });

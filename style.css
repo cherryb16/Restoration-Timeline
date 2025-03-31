@@ -256,3 +256,11 @@ html, body {
     min-height: 600px;  /* Adjust this value as needed */
     overflow-y: auto;
 }
+
+/* Title above images in timeline container */
+.event .event-title-thumb {
+    font-size: 14px; /* Adjust size as needed */
+    text-align: center;
+    color: #00c6ff; /* Use same color as your main event title if desired */
+    margin-bottom: 5px; /* Space between title and image */
+}
