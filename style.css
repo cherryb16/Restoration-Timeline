@@ -193,20 +193,29 @@ body {
 @media (min-width: 1201px) {
     .horizontal-timeline {
         padding: 50px 20px;
-        height: 300px;
+        height: 500px;
     }
     .event {
-        width: 120px;
+        width: 300px;
         margin: 0 30px;
     }
     .event img {
-        width: 150px;
-        height: 150px;
+        width: 250px;
+        height: 250px;
         margin: 20px auto;
     }
     #event-details {
         width: 80%;
         padding: 20px;
+    }
+    #event-title {
+        font-size: 36px;
+    }
+    #event-date {
+        font-size: 30px;
+    }
+    #event-description {
+        font-size: 24px;
     }
 }
 
