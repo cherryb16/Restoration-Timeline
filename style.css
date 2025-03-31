@@ -144,23 +144,19 @@ body {
 /* Responsive Styles */
 
 /* Mobile screens */
-@media (max-width: 600px) {
-    body {
-        padding: 0px;
-    }
+@media (max-width: 400px) {
     .horizontal-timeline {
-        padding: 30px 10px;
+        padding: 30px 20px;
         height: 200px;
     }
     .event {
         width: 100px;
-        margin: 0 5px;
+        padding: 10px;
     }
     .event img {
         width: 100px;
         height: 100px;
         margin: 15px auto;
-        border: 3px;
     }
     #event-details {
         width: 90%;
@@ -182,7 +178,7 @@ body {
 }
 
 /* Tablet and small desktop screens */
-@media (min-width: 601px) and (max-width: 1200px) {
+@media (min-width: 401px) and (max-width: 900px) {
     .horizontal-timeline {
         padding: 15px;
         height: 250px;
@@ -206,7 +202,7 @@ body {
 }
 
 /* Larger screens */
-@media (min-width: 1201px) {
+@media (min-width: 901px) {
     .horizontal-timeline {
         padding: 50px 20px;
         height: 500px;
