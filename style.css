@@ -210,37 +210,6 @@ body {
     }
 }
 
-/* Extra Small Screens */
-@media (max-width: 400px) {
-    .horizontal-timeline {
-        padding: 20px 5px;
-        height: 180px;
-    }
-    .event {
-        width: 80px;
-        margin: 0 10px;
-    }
-    .event img {
-        width: 80px;
-        height: 80px;
-        margin: 5px auto;
-    }
-    #event-details {
-        width: 95%;
-        padding: 10px;
-        font-size: 12px;
-    }
-    #event-title {
-        font-size: 18px;
-    }
-    #event-date {
-        font-size: 14px;
-    }
-    #event-description {
-        font-size: 12px;
-    }
-}
-
 /* Short Height Screens */
 @media (max-height: 500px) {
     .horizontal-timeline {
